@@ -1,2 +1,4 @@
 # Movie-buster
-binojishara21@gmail.com Binoj Batuwanthudawa BinojBI IA4
+<br>
+This application tweet you as soon as when new movie trailer released.
+binojishara21@gmail.com Binoj Batuwanthudawa BinojBI
