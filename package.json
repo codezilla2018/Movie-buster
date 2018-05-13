@@ -1,0 +1,29 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "i'm demostrating npm",
+  "main": "bot.js",
+  "dependencies": {
+    "node-twitterbot": "^0.2.2",
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codezilla2018/Movie-buster.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codezilla2018/Movie-buster/issues"
+  },
+  "homepage": "https://github.com/codezilla2018/Movie-buster#readme"
+}
