@@ -1,5 +1,9 @@
-// var exec = require("child_process").exec;
-// app.get('/', function(req, res){exec("php suscribe.php", function (error, stdout, stderr) {res.send(stdout);});});
+
+var exec = require("child_process").exec;
+var express=require('express');
+var app =express();
+app.get('/', function(req, res){exec("php suscribe.php", function (error, stdout, stderr) {res.send(stdout);});});
+
 
 console.log('the bot is starting');
 
@@ -10,7 +14,9 @@ var config = require('./config');
 var T = new Twit(config);
 
 var tweet={
-    status : '#codezilla oooh moblle'
+
+    status : '#codezilla kosoohkk moblle'
+
 }
 
 T.post('statuses/update', tweet, tweeted);
